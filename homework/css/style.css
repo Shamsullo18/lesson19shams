@@ -1,0 +1,219 @@
+*{margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    color: rgb(50, 50, 50);
+    width: 100%;
+}
+.flex{
+    margin-top: 40px;
+    padding: 10px 30px;
+}
+#flex{
+    margin-top:  -35px; ;
+}
+.center{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.centerr{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#p{
+    font-size: 40px;
+}
+#p1{
+ font-size: 20px;
+ color: gray;
+}
+#pad{
+    color: rgb(97, 97, 97);
+    font-size: 18px;
+}
+.cent{
+    padding: 0px 100px;
+}
+.cent1{
+    padding: 0px 100px;
+}
+.cent2{
+    margin-top: 50px;
+}
+#back{
+    padding-left: 20px;
+    background-color: #A9C2BE;
+    color: white;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.photo1{
+    display: flex;
+    justify-content: center;
+}
+.img{margin-top: 80px;
+    padding: 5px;
+}
+#bg{
+    padding-top: 30px ;
+    padding-left: 400px;
+    background-color: #A9C2BE;
+}
+.c1{
+    width: 100%;
+    padding: 10px;
+    background-color: #5B5B5B;
+    color: white;
+}
+#b{
+    border: none;
+    background-color: #FF9619;
+    color: white;
+    width: 180px;
+    padding: 11px;
+}
+.icon{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+.ic{
+    padding: 40px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.anc{
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+#input{
+
+    padding: 6px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#otp{
+    border: none;
+    background-color: #FF9619;
+    color: white;
+    width: 180px;
+    padding: 7px;
+    margin-left: 50px;
+}
+.kreslo{
+    display: flex;
+    justify-content: center;
+}
+.kr{
+    padding: 5px 15px;
+}
+.kr:hover{
+    box-shadow: 1px 1px 15px rgb(158, 158, 158);
+}
+.knopka{
+    display: flex;
+    justify-content: center;
+}
+#b:hover{
+    background-color: gainsboro;
+    color: black;
+}
+#otp:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.form{
+    margin-top: -200px;
+    color: white;
+    margin-left: 50px;
+}
+.end{
+    padding: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+.en{
+    padding: 10px;
+}
+#m{
+    width: 90%;
+}
+.finish{
+    padding: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #5B5B5B;
+    color: white;
+}
+.fin{
+    padding: 0px 50px;
+}
+a{
+    color: #5B5B5B;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .top{
+        display: none;
+    }
+    .center{
+        margin: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .photo{
+        display: none;
+    }
+    .photo1{
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .centerr{
+display: none;
+    }
+    .icon{
+        flex-wrap: wrap;
+    }
+    .main{
+        width: 600px;
+        margin: auto;
+        flex-wrap: wrap;
+        
+    }
+    .mai{
+        margin: auto;
+    }
+    #mai{
+        display: none;
+    }
+    .kreslo{
+            margin: auto;
+            flex-wrap: wrap;
+        }
+        .end{
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+        }
+        .en{
+           margin-bottom: 100px;
+        }
+        .finish{
+            margin: auto;
+            width: 100%;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+}
